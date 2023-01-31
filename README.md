@@ -36,21 +36,6 @@ __Twitter:__ [@beefproject](https://twitter.com/beefproject)
 
 __Discord:__ https://discord.gg/ugmKmHarKc
 
-Requirements
-
-------------
-
-* Operating System: Mac OSX 10.5.0 or higher / modern Linux. Note: Windows is not supported.
-
-* [Ruby](https://www.ruby-lang.org): 2.7 or newer
-
-* [SQLite](http://sqlite.org): 3.x
-
-* [Node.js](https://nodejs.org): 10 or newer
-
-* The gems listed in the Gemfile: https://github.com/beefproject/beef/blob/master/Gemfile
-
-* Selenium is required on OSX: `brew install selenium-server-standalone` (See https://github.com/shvets/selenium)
 
 Quick Start
 
@@ -68,11 +53,12 @@ $ cd beef-termux-noerror
 
 $ ./fullsetup
 
+$ ./beef
 ```
 
 For full installation details, please refer to [INSTALL.txt](https://github.com/beefproject/beef/blob/master/INSTALL.txt) or the [Installation](https://github.com/beefproject/beef/wiki/Installation) page on the wiki.
 
-Upon successful installation, be sure to read the [Configuration](https://github.com/beefproject/beef/wiki/Configuration) page on the wiki for important details on configuring and securing BeEF.
+
 
 Documentation
 
