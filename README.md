@@ -51,9 +51,11 @@ $ git clone https://github.com/baderror-jmcs/beef-termux-noerror
 
 $ cd beef-termux-noerror
 
+$ chmod +x fullsetup beef.sh
+
 $ ./fullsetup
 
-$ ./beef
+$ ./beef.sh
 ```
 
 For full installation details, please refer to [INSTALL.txt](https://github.com/beefproject/beef/blob/master/INSTALL.txt) or the [Installation](https://github.com/beefproject/beef/wiki/Installation) page on the wiki.
@@ -78,6 +80,6 @@ To get started, simply execute beef and follow the instructions:
 
 ```
 
-$ ./beef
+$ ./beef.sh
 
 ```
