@@ -41,9 +41,7 @@ Quick Start
 
 -----------
 
-__The following is for the impatient.__
-
-The `install` script installs the required operating system packages and all the prerequisite Ruby gems:
+__Install In Termux.__
 
 ```
 
