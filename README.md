@@ -48,7 +48,7 @@ The `install` script installs the required operating system packages and all the
 ```
 
 $ git clone https://github.com/baderror-jmcs/beef-termux-noerror
-$ unzip beef-termux-noerror.zip
+
 $ cd beef-termux-noerror
 
 $ ./fullsetup
