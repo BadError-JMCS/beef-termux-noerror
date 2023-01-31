@@ -1,0 +1,16 @@
+echo " *************************"
+echo "######| Installing |######"
+echo " *************************"
+apt update
+apt upgrade
+pkg install git
+pkg install curl wget libyaml libxslt bison espeak ruby python nodejs
+gem install nokogiri -- --use-system-libraries
+git clone https://github.com/beefproject/beef
+cd beef
+chmod +x install
+chmod +x update-beef
+./install
+./update-beef
+cd ..
+python renamedb.py
